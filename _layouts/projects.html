@@ -1,0 +1,82 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+</head>
+
+<style>
+  .zoom:hover {
+    transform: scale(2);
+  }
+</style>
+
+<body class="page">
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+{% if page.image.feature %}
+  <div class="image-wrap">
+  <img src=
+    {% if page.image.feature contains 'http://' %}
+      "{{ page.image.feature }}"
+    {% elsif page.image.feature contains 'https://' %}
+      "{{ page.image.feature }}"
+    {% else %}
+      "{{ site.url }}/images/{{ page.image.feature }}"
+    {% endif %}
+  alt="{{ page.title }} feature image">
+  {% if page.image.credit %}
+    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
+  </div><!-- /.image-wrap -->
+{% endif %}
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <article>
+    <h1>{{ page.title }}</h1>
+    <div class="article-wrap">
+      {{ content }}
+      <div class="bottom-three">
+        <h3 align="center"><strong>&bull; Nail Tracker</strong></h3>
+        <p align="center" class=bottom-small><img src="{{ site.url }}/images/projects/nail-tracker.gif" alt="Nail Tracker" width="350" title="Nail Tracker" style="border: 2px solid"></p>
+        <p align="center" style="margin-top: 0px">&#10148 Transfer Learned the feature layers of ResNet Model on Nail Images collected online and deployed this trained model on Android using <strong>TensorFlow-Lite</strong> for on-the-fly predictions on the camera input.</p>
+        <p align="center" class="bottom-three">&#10148 In the above GIF you can clearly see how well the model is able to predict nails. You can <a href = "https://github.com/DeathReaper0965/Nail-Tracker-TensorFlow-Android" target="_blank">click here</a> to access the Repo.</p>
+
+        <h3 align="center"><strong>&bull; Digimon Generator</strong></h3>
+        <p align="center" class=bottom-small><img src="{{ site.url }}/images/projects/DigiGan.png" alt="Digimon GAN" width="400" title="Digimon GAN" style="border: 2px solid" class="zoom"></p>
+        <p align="center" style="margin-top: 0px">&#10148 Developed a custom 8-layered Discriminator and 6-layered Generator <strong>Wasserstein Generative Adversarial Network(WGAN)</strong> trained on 1072 Digimon images.</p>
+        <p align="center">&#10148 This model upon passing any random noise in-turn produces a Unknown Digimon Image which is similar to what the model was trained on but not the same.</p>
+        <p align="center" class="bottom-three">&#10148 Above given picture is how the layers are arranged and <a href = "https://github.com/DeathReaper0965/Digimon-Generator-GAN" target="_blank">click here</a> to access the Repo.</p>
+
+        <h3 align="center"><strong>&bull; Image Enhancer</strong></h3>
+        <p align="center" class=bottom-small><img src="{{ site.url }}/images/projects/image-enhancer-gan.png" alt="Image Enhancer" width="400" title="Image Enhancer" style="border: 2px solid" class="zoom"></p>
+        <p align="center" style="margin-top: 0px">&#10148 Designed a custom <strong>Conditional Generative Adversarial Network(CGAN)</strong> trained over 13k Human Face images.</p>
+        <p align="center">&#10148 The images were first blurred using Image Augmentation techniques such as Guassian Blur and/or Salt & Pepper noise. Used these images for training the model to predict the actual de-noised images.</p>
+        <p align="center" class="bottom-three">&#10148 In the above image the left one is the blurred image and the right one is the model predicted de-noised output. You can <a href = "https://github.com/DeathReaper0965/Image-Enhancer-using-CGAN" target="_blank">click here</a> to access the Repo.</p>
+
+        <h3 align="center"><strong>&bull; Artistic Video Generator</strong></h3>
+        <p align="center" class=bottom-small><img src="{{ site.url }}/images/projects/avg.gif" alt="Cross IT" width="300" title="Cross IT" style="border: 2px solid"></p>
+        <p align="center" style="margin-top: 0px">&#10148 This project takes the Basic Style Transfer to next-level by manipulating the feature layers as well as the addition of some custom CNN layers at the top and end of VGG-16 model to provide the artistic form of an image in fraction of seconds.</p>
+        <p align="center">&#10148 Model is developed using <strong>TensorFlow</strong> and deployed to Android using <strong>TF-Lite</strong> which receives the input frames from the camera and outputs the predictions (i.e. the artistic forms) on-the-fly and shows the result to the user.</p>
+        <p align="center" class="bottom-three">&#10148 The above GIF shows you how the video is getting processed to different artistic forms in an instant while viewing through camera on-the-fly.</p>
+
+        <h3 align="center"><strong>&bull; Cross IT - The Game</strong></h3>
+        <p align="center" class=bottom-small><img src="{{ site.url }}/images/projects/cross-it-game.png" alt="Cross IT" width="400" title="Cross IT" style="border: 2px solid" class="zoom"></p>
+        <p align="center" style="margin-top: 0px">&#10148 This is a computer game, which involves the development of various 3D models including the Main Character in <strong>Blender</strong> and Shaders using <strong>ShaderLab</strong> & <strong>OpenGL</strong>.</p>
+        <p align="center">&#10148 All these pieces are connected using C# in <strong>MonoDevelop</strong> to bring the character alive in <strong>Unity3D</strong>.</p>
+        <p align="center" class="bottom-three">&#10148 The above image is a glimpse of 1st level where in the character has to collect some glowing balls inorder to advance to another level. Please <a href = "https://github.com/DeathReaper0965/Cross_It-The_Game" target="_blank">click here</a> to access the Repo.</p>
+      </div>
+    </div>
+    </div>
+  </article>   
+
+</body>
+</html>

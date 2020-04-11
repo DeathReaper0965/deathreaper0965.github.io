@@ -1,0 +1,61 @@
+title:            Praneet's site
+description:      It's my pleasure to have you my site.
+# Your site's domain goes here. Leave localhost server or blank when working locally.
+url:              "" # //weilinear.github.io
+
+owner:
+  name:           Praneet Pabolu
+  avatar:         praneet.jpg
+  bio:            Deep Learner | Artificial Intelligence | Data Science
+
+  email:          praneet.pabolu@gmail.com
+  linkedin:       deathreaper0965
+  github:         DeathReaper0965
+  twitter:        Praneet_0965
+  coursera:       b057ceb0b139af17d15e1ec2d5dfe1ca
+  qwiklabs:       b55dbd34-b67a-4b19-b391-7d445c352ca2
+  datacamp:       praneet0965
+
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Resumé
+    url: /resume/
+  - title: Projects
+    url: /projects/
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    asia/kolkata
+future:      true
+#pygments:    true
+highlighter: rouge
+markdown:    kramdown
+kramdown:
+  extensions: ["strikethrough"]
+  
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+syntax_highlighter_opts:
+  line_numbers:
+  line_numbers_start: 1
+  tab_width: 4
+  bold_every: 10
+  css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+
+sass:
+    sass_dir: _sass
+
+plugins:
+- jekyll-email-protect
