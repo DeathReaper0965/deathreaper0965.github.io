@@ -3,6 +3,8 @@ description:      It's my pleasure to have you my site.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              "" # //weilinear.github.io
 
+theme: minima
+
 owner:
   name:           Praneet Pabolu
   avatar:         praneet.jpg
