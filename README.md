@@ -1,6 +1,6 @@
 # Praneet Pabolu's Home Page
 
-This is my small Personal Site which consists of a brief about me, my achievements, projects as of now and maybe some blogs in the future.
+This is my Personal Site which consists of a brief about me, my achievements and projects. Will add some blogs on Machine Learning and Deep Learning in the future.
 
 ## License
 
