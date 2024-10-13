@@ -11,7 +11,7 @@ I'm a Machine Learning and Deep Learning Practitioner with 6.5+ years of experie
 Being a Meetup enthusiast, I enjoy Attending and Giving Talks at Local and International Summits on Artificial Intelligence. Some of the Summits where I was an Invited Speaker are:
 1. <a href="https://rasa.com/">RASA</a> for the topic on <b>"Designing Conversational AI Platform via Multi-Agent Systems and Reinforcement Learning"</b> - <a href="https://calmsummit24.com/speakers/">[Learn More]</a> | October 30, 2024
 <br>
-2. <a href="https://community.analyticsvidhya.com/feed">Analytics Vidhya</a> for the topic on <b>"Generative AI - Bridging Imagination and Reality in Language and Vision"</b> - <a href=https://community.analyticsvidhya.com/c/datahour/generative-ai-bridging-imagination-and-reality-in-language-and-vision>[Learn More]</a> | May 23, 2024
+2. <a href="https://community.analyticsvidhya.com/feed">Analytics Vidhya</a> for the topic on <b>"Generative AI - Bridging Imagination and Reality in Language and Vision"</b> - <a href="https://community.analyticsvidhya.com/c/datahour/generative-ai-bridging-imagination-and-reality-in-language-and-vision"> [Learn More]</a> | May 23, 2024
 <br>
 3. <a href="https://www.metvy.com/">Metvy</a> for the topic on <b>"All things Generative AI"</b> - <a href="https://www.linkedin.com/feed/update/urn:li:activity:7116083127827017728/">[Learn More]</a>. | September 26, 2023
 <br><br>
