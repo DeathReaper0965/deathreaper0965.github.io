@@ -5,7 +5,7 @@ description: "Praneet's website"
 tags: [Jekyll, theme, responsive, blog, template]
 ---
 
-I'm a Machine Learning and Deep Learning Practitioner with 6.5+ years of experience in Generative AI, NLP, Large Language Models(LLMs), Computer Vision, Reinforcement Learning and Multi-Modal Models. I've also filed <a href="https://patents.justia.com/inventor/praneet-pabolu" target="_blank">8 US Patents</a> in Generative AI space as part of my current & previous works as a <a href="https://linkedin.com/in/deathreaper0965" target="_blank">Senior Applied Data Scientist</a>. I love working on all areas of Deep Learning, whether it is Language, Vision or Speech. Moreover, I always keep myself updated with the latest advancements in our ever-evolving and rapidly changing world.
+I'm a Machine Learning and Deep Learning Practitioner with 7+ years of experience in Generative AI, NLP, Large Language Models(LLMs), Computer Vision, Reinforcement Learning and Multi-Modal Models. I've also filed <a href="https://patents.justia.com/inventor/praneet-pabolu" target="_blank">9 US Patents</a> in Generative AI space as part of my current & previous works as an <a href="https://linkedin.com/in/deathreaper0965" target="_blank">Applied Scientist</a>. I love working on all areas of Deep Learning, whether it is Language, Vision or Speech. Moreover, I always keep myself updated with the latest advancements in our ever-evolving and rapidly changing world.
 
 <br />
 Being a Meetup enthusiast, I enjoy Attending and Giving Talks at Local and International Summits on Artificial Intelligence. Some of the Summits where I was an Invited Speaker are:<br><br>
